@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="379.0" prefWidth="421.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerInputParameterThirdMult">
+   <children>
+      <Label fx:id="lb_name_model" layoutX="167.0" layoutY="14.0" text="Name model">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="137.0" layoutY="49.0" text="k1 = ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ti_k1" alignment="CENTER" layoutX="227.0" layoutY="51.0" prefHeight="25.0" prefWidth="129.0" />
+      <Label layoutX="137.0" layoutY="90.0" text="k2 = ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ti_k2" alignment="CENTER" layoutX="227.0" layoutY="92.0" prefHeight="25.0" prefWidth="129.0" />
+      <Label layoutX="137.0" layoutY="139.0" text="k3 = ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ti_k3" alignment="CENTER" layoutX="227.0" layoutY="141.0" prefHeight="25.0" prefWidth="129.0" />
+      <Button fx:id="btn_view_graphs_omega" layoutX="123.0" layoutY="213.0" mnemonicParsing="false" text="Построить графики Omega i (t)" />
+      <Button fx:id="btn_view_graphs_lambda" layoutX="121.0" layoutY="255.0" mnemonicParsing="false" text="Построить графики Lambda i (t)" />
+      <Button layoutX="150.0" layoutY="336.0" mnemonicParsing="false" text="Lambda3(Lambda1)" />
+      <Button layoutX="14.0" layoutY="336.0" mnemonicParsing="false" text="Lambda2(Lambda1)" />
+      <Button layoutX="283.0" layoutY="336.0" mnemonicParsing="false" text="Lambda3(Lambda2)" />
+      <Button layoutX="285.0" layoutY="294.0" mnemonicParsing="false" text="Lambda3(lambda0)" />
+      <Button layoutX="150.0" layoutY="294.0" mnemonicParsing="false" text="Lambda2(Lambda0)" />
+      <Button fx:id="btn_graphs_lambda1" layoutX="14.0" layoutY="294.0" mnemonicParsing="false" text="Lambda1(Lambda0)" />
+   </children>
+</AnchorPane>
